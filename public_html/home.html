@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Author : Aniruth
+     Class  : CSC 
+     Date: 04/01/2023
+     Description: home.html file contains the information about viewing and creating lisitings & viewing purchases in the Ostaa Website (part 2).
+     This is the main page of the website -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ostaa</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./home.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Ostaa</h1>
+    </div>
+    <div class="home">
+      <div>
+        <h1>Hey <span id="username"></span>, what would like to do?</h1>
+        <form id="searchForm">
+          <input
+            type="text"
+            name=""
+            id="search"
+            placeholder="search"
+            required
+          />
+          <button>Search Listings</button>
+        </form>
+
+        <button class="home-btn" id="viewListings">View your Listings</button>
+        <button class="home-btn" id="viewPurchases">View your Purchases</button>
+        <button class="home-btn" id="createListing">Create a Listing</button>
+      </div>
+
+      <div id="content"></div>
+    </div>
+  </body>
+</html>

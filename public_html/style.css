@@ -1,0 +1,74 @@
+/* 
+ Name: Aniruth
+ Class: CSC 
+ Description: style.css showcasing the different styles and attributes for the Ostaa Website (part 2).
+ Date: 04/01/2023
+*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: #c4dff4;
+}
+.main {
+  padding: 32px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+.group {
+  margin-bottom: 8px;
+}
+
+#loginForm {
+  margin-bottom: 64px;
+}
+
+#loginError {
+  color: rgb(220, 20, 60);
+  margin-bottom: 16px;
+}
+
+.home {
+  background-color: #e0f4cc;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 90vh;
+  border: 1px solid grey;
+}
+
+.home > div {
+  border: 1px solid grey;
+  padding: 32px 32px;
+}
+
+#searchForm {
+  margin: 64px 0;
+}
+
+.home-btn {
+  margin-bottom: 32px;
+  display: block;
+}
+
+.item {
+  border: 1px solid black;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.item p {
+  margin-bottom: 8px;
+}
+
+.item img {
+  max-height: 200px;
+  object-fit: contain;
+  margin-top: 8px;
+}

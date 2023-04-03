@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Author : Aniruth
+     Class  : CSC 
+     Date: 04/01/2023
+     Description: index.html file contains the information about the login/account creation in the Ostaa Website (part 2).
+     This is the main page of the website -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ostaa</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Ostaa</h1>
+      <form id="loginForm" autocomplete="off">
+        <h1>Login</h1>
+        <div class="group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" required />
+        </div>
+        <div class="group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+        </div>
+        <p id="loginError"></p>
+        <button type="submit">Login</button>
+      </form>
+
+      <form id="userForm" autocomplete="off">
+        <h1>Create Account</h1>
+        <div class="group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" required />
+        </div>
+        <div class="group">
+          <label for="password">Password</label>
+          <input type="text" name="password" id="password" required />
+        </div>
+        <button type="submit">Add User</button>
+      </form>
+    </div>
+  </body>
+</html>
